@@ -1,0 +1,26 @@
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+      <title>
+         WhiteBoard
+      </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="miniproject.css">
+  </head>
+  <div class="can">
+    <canvas id="draw" style="border: 3px solid #000 "></canvas>
+ </div>
+  <div class="toolbox">
+    <div class="coloring">
+        <input type="color" id="Drawing" value="#0000fff">
+    </div>
+    <div class="sizing">
+        <input type="range" id="width" min="5" max="60" value="5">
+    </div>
+    <div class="clearing">
+        <button onclick="clear_canvas()" type="button" class="button">clear</button>
+    </div> 
+   </div>
+   <script src="miniproject.js"></script>
+  </html>

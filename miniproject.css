@@ -1,0 +1,39 @@
+.toolbox
+{
+    background-color: rgb(88, 63, 181);
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    justify-content: center;
+}
+
+.toolbox .coloring
+{
+   padding-right: 10px;
+}
+.toolbox .sizing
+{
+ padding-top: 3px;
+}
+.toolbox .saving
+{
+    padding-left: 10px;
+    padding-top: 2px;
+}
+.toolbox .clearing
+{
+    padding-left: 10px;
+    padding-top: 2px;
+}
+.toolbox .restoring
+{
+    padding-left: 5px;
+    padding-top: 2px;
+}
+.can
+{
+    padding-top: 0px;
+    cursor: crosshair;
+    padding-bottom: 10px;
+}
